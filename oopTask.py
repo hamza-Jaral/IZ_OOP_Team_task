@@ -15,3 +15,10 @@ class Bike:
     #arslan has to write his code between these two commented lines
     # arslan code start
     # arslan code end
+
+
+b = Bike('white', '2cyl', '80')
+b.set_color('black')
+print(b.get_color())
+print(b.time_to_complete_distance(30))
+
