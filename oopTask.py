@@ -1,4 +1,7 @@
 class Bike:
+    '''
+    Bike class creates bike object. It has three attributes (color, engine and speed).
+    '''
     def __init__(self, color, engine, speed):
         self.color = color
         self.engine = engine
