@@ -10,15 +10,29 @@ class Bike:
     ## hassan has to write his code between these two commented lines##
     ##hasan code start
     def set_engine(self, engine):
+        '''
+        this is set engine function and will take engine type as in input which is string
+        this function will also print Engine Updated
+
+        '''
         self.engine = engine
         print("Engine Updated")
     def get_engine(self):
+        '''
+        this function will return engine type
+        '''
         return self.engine
     def set_speed (self, speed):
+        '''
+        this function will set bike speed and will print speed updated
+        '''
         self.speed = speed
         print("Speed updated!")
 
     def get_speed (self):
+        '''
+        this function will return speed
+        '''
         return self.speed
     # hasan code end
 
