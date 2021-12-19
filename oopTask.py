@@ -14,6 +14,16 @@ class Bike:
 
     #arslan has to write his code between these two commented lines
     # arslan code start
+    def set_color(self, color):
+        self.color = color
+        print("Color updated")
+
+    def get_color(self):
+        return self.color
+
+    def time_to_complete_distance(self, distance):
+        time = distance / self.speed
+        return time  
     # arslan code end
 
 
