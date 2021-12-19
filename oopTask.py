@@ -21,4 +21,8 @@ b = Bike('white', '2cyl', 80)
 b.set_color('black')
 print(b.get_color())
 print(b.time_to_complete_distance(30))
+b.set_engine('3cyl')
+print(b.get_engine())
+b.set_speed(90)
+print(b.get_speed())
 
