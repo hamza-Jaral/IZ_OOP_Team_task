@@ -15,12 +15,19 @@ class Bike:
     #arslan has to write his code between these two commented lines
     # arslan code start
     def set_color(self, color):
+        '''
+        This is funtion is use for change the color of bike
+    '''
         self.color = color
         print("Color updated")
-
+    '''
+        This is funtion is use for get the color of bike
+    '''
     def get_color(self):
         return self.color
-
+    '''
+        This is funtion is use for Distan cover of bike
+    '''
     def time_to_complete_distance(self, distance):
         time = distance / self.speed
         return time  
